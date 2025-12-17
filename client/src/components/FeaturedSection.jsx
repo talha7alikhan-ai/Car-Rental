@@ -24,7 +24,7 @@ const FeaturedSection = () => {
           }  
          </div>
            <button onClick={()=> {
-            navigate('/cars');
+            navigate('/cars'); scrollTo(0,0)
               }}
 
 

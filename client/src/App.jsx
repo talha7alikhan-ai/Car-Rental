@@ -10,7 +10,7 @@ const App = () => {
 
     const [ShowLogin, setShowLogin] = useState(false);
      const isOwnerPath = useLocation().pathname.startsWith('/owner'); 
-
+   
 
   return (
       <>
@@ -18,7 +18,7 @@ const App = () => {
 
         <Routes>
              <Route path='/' element={<Home/>} />
-             <Route path='/ car-details/:id' element={<CarDetails/>} />
+             <Route path='/car-details/:id' element={<CarDetails/>} />
              <Route path='/cars' element={<Cars/>} />
              <Route path='/my-bookings' element={<MyBookings/>}/>
         </Routes>
