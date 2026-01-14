@@ -17,4 +17,4 @@ const { user } = useAppContext();
   )
 }
 
-export default Navbarowner
+export default NavbarOwner

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Navbarowner from '../../components/owner/Navbarowner'
+import Navbarowner from '../../components/owner/NavbarOwner'
 import Sidebar from '../../components/owner/Sidebar'
 import { Outlet } from 'react-router-dom'
 import { useAppContext } from '../../context/AppContext'
